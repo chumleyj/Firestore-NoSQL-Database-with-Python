@@ -1,5 +1,5 @@
 # Author: Jeffrey Chumley
-# Date: 1/19/2022
+# Date: 2/3/2022
 # Description: This program analyzes a dataset of COVID-19
 #  and CBC test results stored in a Firestore database.
 #  Displays plots and statistical tests of the data.
