@@ -2,11 +2,11 @@
 
 This is a demonstration project showing the use of Python to interact with a cloud database. I developed this program to gain experience storing data in and querying data from cloud databases. 
 
-The program itself is based on a previous data analysis project I completed. The program performs plotting and statistical comparisons on CBC data for patients with and without COVID. This project moves the locally stored data to a cloud database and includes the following functionality for interacting with the database: querying, modifying, adding, and deleting data. 
+The program itself is based on a [previous data analysis project](https://github.com/chumleyj/Data-Analysis-in-Python) I completed. The program performs plotting and statistical comparisons on CBC data for patients with and without COVID. This project moves the locally stored data to a cloud database and includes the following functionality for interacting with the database: querying, modifying, adding, and deleting data. 
 
 When a user requests a plot or statistical comparison, the resulting figure or statistic is displayed and stored locally. The data itself is not held locally - only the figure or statistic. The local data can be cleared to force the program to make a fresh query of the database. This compromise was made to keep querying within the Firestore limits for free use. Additionally, only a subset of the full dataset was uploaded to Firestore due to read/write limits for free use.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Xe6WkBRy-I0)
 
 # Original Data Citation
 
