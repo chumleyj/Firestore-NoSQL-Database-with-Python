@@ -25,7 +25,7 @@ def display_statistic(stat_dict):
     print(f'The COVID positive sample median is {stat_dict["pos_median"]} {stat_dict["unit"]}.')
     print(f'The p-value for a two-tailed Mann-Whitney-Wilcoxon test comparing sample medians is {stat_dict["p_value"]:.2e}')
     
-    if (stat_dict['p_value'] < 0.5):
+    if (stat_dict['p_value'] < 0.05):
         print('The hypothesis that the two samples have different medians is statistically significant with an alpha of 0.5.')
     else:
         print('The null hypothesis that the two samples have the same median cannot be rejected with an alpha of 0.05.')
